@@ -1,0 +1,17 @@
+# Requisitos adicionais para aceleração GPU com CUDA
+
+# RAPIDS cuDF para processamento GPU
+# Requer CUDA 12.x instalado
+# Instalação via pip:
+--extra-index-url=https://pypi.nvidia.com
+cudf-cu12>=24.10.0
+
+# CuPy para operações NumPy na GPU
+cupy-cuda12x>=12.0.0
+
+# PyTorch com CUDA (opcional, para ML avançado)
+# torch>=2.1.0+cu118
+# torchvision>=0.16.0+cu118
+
+# Nota: Para instalar PyTorch com CUDA, use:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
